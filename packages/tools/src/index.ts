@@ -88,6 +88,8 @@ import {
   LabelMapEditWithContourTool,
 } from './tools';
 
+import LengthToolZoom from './tools/annotation/LengthToolZoom/LengthToolZoom';
+
 import VideoRedactionTool from './tools/annotation/VideoRedactionTool';
 
 import * as Enums from './enums';
@@ -120,6 +122,7 @@ export {
   // Annotation Tools
   LabelTool,
   LengthTool,
+  LengthToolZoom,
   HeightTool,
   CrosshairsTool,
   ReferenceLinesTool,
